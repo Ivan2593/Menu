@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+}
+
+.App {
+
+}
+
+.logo {
+    position: absolute;
+    z-index: 10;
+    margin-left: 43%;
+}
+
+.card {
+    padding: 8px;
+    background-color: white;
+    margin-left: 219px;
+    margin-top: 82px;
+    border-radius: 27px;
+}
+
+.rerolled {
+    margin-right: 31px;
+    margin-top: 5px;
+    float: right;
+}
+
+.del {
+    margin-right: 68px;
+    margin-top: 0px;
+    height: 30px;
+    float: right;
+}
+
+.topPanel {
+    display:inline-block;
+    position: absolute;
+    z-index: 9;
+    top: 0px;
+    left: 0px;
+    height: 245px;
+    width: 100%;
+}
+
+.panel {
+    width: 100%;
+    border-bottom: 2px solid black;
+    height: 55px;
+    background-color: #D7F4CB;
+}
+
+
+
+.recipe {
+    display: flex;
+    padding: 15px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-left: 51px;
+    margin-right: 51px;
+    width: 900px;
+    height: 160px;
+}
